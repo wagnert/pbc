@@ -92,8 +92,8 @@ class StructureMap implements MapInterface
     /**
      * Default constructor
      *
-     * @param array                    $autoloaderPaths  Which paths do we like to include in our map?
-     * @param array                    $enforcementPaths Which paths do we have to enforce
+     * @param array                   $autoloaderPaths  Which paths do we like to include in our map?
+     * @param array                   $enforcementPaths Which paths do we have to enforce
      * @param \AppserverIo\PBC\Config $config           Configuration
      */
     public function __construct($autoloaderPaths, $enforcementPaths, Config $config)
