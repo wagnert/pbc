@@ -1,0 +1,11 @@
+{
+	"enforcement": 
+	{
+		"dirs": 
+		[
+			"./../../../tests/AppserverIo/PBC/Tests/Data"
+		],
+
+		"contract-inheritance": true
+	}
+}
