@@ -102,7 +102,7 @@ class Generator
      * Will also add it to the cache map
      *
      * @param \AppserverIo\PBC\Entities\Definitions\Structure $mapEntry        Entry of a StructureMap we want created
-     * @param boolean                                          $createRecursive If contract inheritance is enabled
+     * @param boolean                                         $createRecursive If contract inheritance is enabled
      *
      * @throws \AppserverIo\PBC\Exceptions\GeneratorException
      *
@@ -174,10 +174,10 @@ class Generator
     /**
      * Will create a file containing the altered definition
      *
-     * @param string                                                    $targetFileName      The intended name of the
-     *                                                                                       new file
+     * @param string                                                   $targetFileName      The intended name of the
+     *                                                                                      new file
      * @param \AppserverIo\PBC\Interfaces\StructureDefinitionInterface $structureDefinition The definition of the
-     *                                                                                       structure we will alter
+     *                                                                                      structure we will alter
      *
      * @throws \InvalidArgumentException
      *
@@ -207,10 +207,10 @@ class Generator
      * Will create a file for a given interface definition.
      * We will just copy the file here until the autoloader got refactored.
      *
-     * @param string                                                     $targetFileName      The intended name of the
-     *                                                                                        new file
+     * @param string                                                    $targetFileName      The intended name of the
+     *                                                                                       new file
      * @param \AppserverIo\PBC\Entities\Definitions\InterfaceDefinition $structureDefinition The definition of the
-     *                                                                                        structure we will alter
+     *                                                                                       structure we will alter
      *
      * @return boolean
      *
@@ -239,10 +239,10 @@ class Generator
     /**
      * Will create a file with the altered class definition as it's content
      *
-     * @param string                                                 $targetFileName      The intended name of the
-     *                                                                                    new file
+     * @param string                                                $targetFileName      The intended name of the
+     *                                                                                   new file
      * @param \AppserverIo\PBC\Entities\Definitions\ClassDefinition $structureDefinition The definition of the
-     *                                                                                    structure we will alter
+     *                                                                                   structure we will alter
      *
      * @return bool
      */
@@ -290,11 +290,11 @@ class Generator
     /**
      * Will append all needed filters based on the enforcement level stated in the configuration file.
      *
-     * @param resource                                                  $res                 The resource we will append
-     *                                                                                       the filters to
+     * @param resource                                                 $res                 The resource we will append
+     *                                                                                      the filters to
      * @param \AppserverIo\PBC\Interfaces\StructureDefinitionInterface $structureDefinition Structure definition
-     *                                                                                       providing needed
-     *                                                                                       information
+     *                                                                                      providing needed
+     *                                                                                      information
      *
      * @return boolean
      *
